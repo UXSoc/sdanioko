@@ -157,37 +157,37 @@ theme = "hugo-elate-theme"
       title = "Construction"
       description = "We use specialized, project management techniques to oversee the planning, design, and construction of a project from beginning to end. You don't have to worry about screening, we connect you to all necessary contractors, subcontractors, vendors and public agencies."
       icon = "icon-anchor"
-      img = "img_7.jpg"
+      img = "construction.jpeg"
 
     [[params.services.item]]
       title = "Manufacturing"
       description = "Our team assists clients with making strategic decisions regarding setting up operations for ideal manufacturing sites.  We stay up to date on the most modern and effective process manufacturing tools and equipment needed for any mid-tier to large scale projects. "
       icon = "icon-layers2"
-      img = "img_7.jpg"
+      img = "manufacturing.jpeg"
 
     [[params.services.item]]
       title = "Technology"
       description = "Can you remember a time without the internet? Neither can we. Technology is what makes our lives simpler. Whether a business needs wiring set up for a new location or a technology platform to help boost sales and reach, our firm stays two steps ahead of any challenges businesses are facing today."
       icon = "icon-video2"
-      img = "img_7.jpg"
+      img = "technology.jpg"
 
     [[params.services.item]]
       title = "Energy"
       description = "We study all sources of energy your company or institution has drawn from over the course of the past few years. Researching local and renewable options for achieving greater efficiency is our specialty. We conduct feasibility studies to determine ideal solutions."
       icon = "icon-monitor"
-      img = "img_7.jpg"
+      img = "energy.jpeg"
 
     [[params.services.item]]
       title = "Business Strategy"
       description = "You are going to need a cutting edge business strategy in the start-up age. The marketplace is infused with competitors mobilizing from the ground up and executing with funding from venture capitalists. Our team can provide business development expertise to help navigate your most simplest to complex business objectives - in the most cost effective means."
       icon = "icon-video2"
-      img = "img_7.jpg"
+      img = "business-strategy.jpg"
 
     [[params.services.item]]
       title = "Government Relations"
-      description = "Managing regulatory pressure is a necessity for any company operating between business and government in today's world. Our firm takes on these obligations ensuring our partners are operating under the most current governmental guidelines."
+      description = "Managing regulatory pressure is a necessity for any company operating between business and government in today's world. Our firm takes on these obligations ensuring our partners are operating under the most current governmental guidelines. With our services, we can steer your company to success by ensuring these regulatory guidelines are met."
       icon = "icon-monitor"
-      img = "img_7.jpg"
+      img = "govt-relations.jpeg"
 
   # About section
   [params.about]
