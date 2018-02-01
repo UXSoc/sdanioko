@@ -6,7 +6,7 @@ theme = "hugo-elate-theme"
 
 [params]
 
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["css/tweak.css"]
 
   # Meta
   author = ""
@@ -233,7 +233,7 @@ theme = "hugo-elate-theme"
 
   # Counters section
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
 
@@ -273,7 +273,7 @@ theme = "hugo-elate-theme"
   [params.contact]
     enable = true
     map = true
-    form = true
+    form = "Contact us"
     title = "Get in touch"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
