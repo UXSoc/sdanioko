@@ -316,6 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header.navbar-fixed-top .navbar-brand {
   color: #52d3aa;
+  font-size: 30px;
 }
 #fh5co-header.navbar-fixed-top #navbar li a {
   color: rgba(0, 0, 0, 0.5);
@@ -1212,9 +1213,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 44px;
   width: 25px;
   border-bottom: none !important;
-}
-.fh5co-nav-toggle .navbar-brand {
-  font-size: 30px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
