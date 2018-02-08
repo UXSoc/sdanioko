@@ -1213,6 +1213,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 25px;
   border-bottom: none !important;
 }
+.fh5co-nav-toggle .navbar-brand {
+  font-size: 30px;
+}
 @media screen and (max-width: 768px) {
   .fh5co-nav-toggle {
     display: block;
