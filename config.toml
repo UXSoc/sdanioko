@@ -11,7 +11,7 @@ theme = "hugo-elate-theme"
   # Meta
   author = ""
   description = ""
-  email = ""
+  email = "feod.engineering@gmail.com"
   # Navigation
   [params.navigation]
     brand = "FEOD Partners"
@@ -279,8 +279,8 @@ theme = "hugo-elate-theme"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"]
+        ["icon-phone", "(267) 258-5236"],
+        ["icon-envelope", "feod.engineering@gmail.com"]
       ]
 
     name = "Name"
