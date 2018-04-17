@@ -32,13 +32,13 @@ title = "Rosebeth Era Domestic & Care Referral Agency"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/annie-spratt-89768-unsplash.jpg"
+      img = "images/annie-spratt-89768-unsplash-min.jpg"
     [[params.mission.images.list]]
-      img = "images/filip-mroz-220805-unsplash.jpg"
+      img = "images/filip-mroz-220805-unsplash-min.jpg"
     [[params.mission.images.list]]
-      img = "images/mark-solarski-177423-unsplash.jpg"
+      img = "images/mark-solarski-177423-unsplash-min.jpg"
     [[params.mission.images.list]]
-      img = "images/volha-flaxeco-546953-unsplash.jpg"
+      img = "images/volha-flaxeco-546953-unsplash-min.jpg"
 
   [[params.mission.item]]
     weight = 1
