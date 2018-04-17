@@ -272,7 +272,7 @@ theme = "hugo-elate-theme"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = "Contact Us"
     title = "Get in touch"
     description = "Contact us for a consultation. We bring extensive experience and professionalism to every project and customize our support to your individual needs and concerns."
