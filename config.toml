@@ -1,295 +1,186 @@
-# Page settings
-baseurl = "https://feodpartners.com/"
-title = "FEOD Partners"
-languageCode = "en-us"
-theme = "hugo-elate-theme"
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "https://sdanioko.netlify.com/"
+languageCode = "en-US"
+title = "Rosebeth Era Domestic & Care Referral Agency"
 
+# Metadata
 [params]
-
-  custom_css = ["css/tweak.css"]
-
-  # Meta
   author = ""
   description = ""
-  email = "feod.engineering@gmail.com"
-  # Navigation
-  [params.navigation]
-    brand = "FEOD Partners"
-    home = "Home"
-    work = "Work"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "About Us"
-    contact = "Contact"
 
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.jpg"
+  title = "Rosebeth Era Domestic & Care Referral Agency"
+  description = "We offer housekeeping, caregiving, and certified nursing services to 15 congregate homes here in the Valley."
 
-    # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+# Navigation section
+[params.nav]
+  mission = "Services"
+  services = "Services"
+  team = "Client References"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
 
-    # postpended links
-    #[[menu.postpend]]
-    #  url = "http://gohugo.io"
-    #  name = "External link"
-    #  weight = 10
+# Mission section
+[params.mission]
+  enable = true
 
-  # Hero section
-  [params.hero]
-    title = "Passion. Experience. Diligence."
-    subtitle = "We handle project management & business solutions for technology, manufacturing and construction companies."
+  [params.mission.images]
+    enable = true
 
-  # Intro section
-  # Available icons: http://simplelineicons.com/
-  [params.intro]
+    [[params.mission.images.list]]
+      img = "images/annie-spratt-89768-unsplash.jpg"
+    [[params.mission.images.list]]
+      img = "images/filip-mroz-220805-unsplash.jpg"
+    [[params.mission.images.list]]
+      img = "images/mark-solarski-177423-unsplash.jpg"
+    [[params.mission.images.list]]
+      img = "images/volha-flaxeco-546953-unsplash.jpg"
 
-  [[params.intro.item]]
-    title = "Our Firm"
-    description = "We are a national engineering firm helping companies manage projects by utilizing our world class expertise. We know how to centralize multi-faceted and complex projects."
-    url = "#fh5co-services"
-    button = "What We Do"
-    icon = "icon-wrench"
-    img = "img_7.jpg"
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "Housekeeping"
+    subtitle = "Our housekeeping services include laundry, mopping, sweeping, dusting, window cleaning, emptying trash, washing the bathrooms, cleaning the kitchen, and other household related tasks."
+    description = "<p>Our price is unbeatable at $14/hour.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
-  [[params.intro.item]]
-    title = "Our Team"
-    description = "Our management team consists of individuals who are experts in the fields of engineering, science, manufacturing, business, defense, energy and software."
-    url = "#fh5co-services"
-    button = "Learn More"
-    icon = "icon-users"
-    img = "img_8.jpg"
+  [[params.mission.item]]
+    weight = 2
+    name = "analysis"
+    title = "CNA & Caregiving"
+    subtitle = "We cover oncall CNA/Caregiving services to congregate homes. If any of your certified nurse assistants call off, we can cover them. We primarily serve as a registry agency to cover your shifts."
+    description = "<p>Our price is unbeatable at $14/hour.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
-  [[params.intro.item]]
-    title = "Contact Us"
-    description = "Let's chat - contact us for a consultation. We bring extensive experience and professionalism to every project and customize our support to your individual needs and concerns."
-    url = "#fh5co-contact"
-    button = "Get In Touch"
+# Services section
+[params.services]
+  enable = false
+  video = true
+  vidlink = "https://vimeo.com/channels/staffpicks/93951774"
+  title = "Our Services"
+  description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-present"
+    title = "Web Development"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Retina Ready"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-paper-plane"
+    title = "Light Speed"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Copyrighting"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+  [[params.services.item]]
     icon = "icon-rocket"
-    img = "img_10.jpg"
+    title = "Load Fast"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
-  [params.intro.video]
-    enable = false
-    title = "Watch the video"
-    icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Customer Support"
+    description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
+# Work section
+[params.work]
+  enable = false
 
-  # Work section
-  [params.work]
-    enable = false
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_1.jpg"
 
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
 
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
 
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
 
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
 
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_2.jpg"
 
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_3.jpg"
 
-  # Testimonials section
-  [params.testimonials]
-    enable = false
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  [[params.work.item]]
+    title = "Consectetur adipisicing"
+    subtitle = "Web Design"
+    img = "images/img_4.jpg"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person1.jpg"
-      alt = "Person1"
+# Team section
+[params.team]
+  enable = true
+  title = "Client References"
+  description = "Feel free to contact any of our past clients for a reference. Some of the congregate homes we work for include [Royal Haven](http://www.clhfhomes.com/royal-haven.html), Valley Living Center, [Valley View](http://www.valleyviewcongregate.com/), Healthy Life Congregate Care, [Fenton Villa](http://www.clhfhomes.com/fenton.html), and Home of Compassion."
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person2.jpg"
-      alt = "Person2"
+  [[params.team.item]]
+    name = "Paul Rinehard"
+    position = "CLHF Homes"
+    description = "(920) 634-6768"
+    img = "images/person1.jpg"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
-      img = "person3.jpg"
-      alt = "Person3"
+  [[params.team.item]]
+    name = "Omar"
+    position = "Corbin Congregate"
+    description = "(323) 898-8680"
+    img = "images/person2.jpg"
 
+  [[params.team.item]]
+    name = "Rizza"
+    position = "Fenton Villa"
+    description = "(747) 248-9714"
+    img = "images/person3.jpg"
 
+  # [[params.team.item]]
+  #   name = "Jason Doe"
+  #   position = "Chief haranguer"
+  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+  #   img = "images/person3.jpg"
+  #   facebook = "#"
+  #   twitter = "#"
+  #   dribbble = "#"
+  #   instagram = "#"
+  #   github = "#"
 
+# Contact section
+[params.contact]
+  enable = true
+  title = "Get In Touch"
+  message = "Do not hesitate to contact us!<br>We will be pleased to assist you."
 
-  # Services section
-  [params.services]
-    enable = true
-    title = "Areas of Practice"
-    description = "Whether you’re a large or small business, we will not only help you achieve your goals, but we’ll also help your business thrive in the market. "
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>&copy; 2018 Free HTML5 Template. All Rights Reserved. <br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small><br><small>Deployed by <a href='https://xaviablaza.com' target='_blank'>Xavi Ablaza</a></small></p>"
 
-    [[params.services.item]]
-      title = "Construction"
-      description = "We use specialized, project management techniques to oversee the planning, design, and construction of a project from beginning to end. You don't have to worry about screening, we connect you to all necessary contractors, subcontractors, vendors and public agencies."
-      icon = "icon-anchor"
-      img = "construction.jpeg"
-
-    [[params.services.item]]
-      title = "Manufacturing"
-      description = "Our team assists clients with making strategic decisions regarding setting up operations for ideal manufacturing sites.  We stay up to date on the most modern and effective process manufacturing tools and equipment needed for any mid-tier to large scale projects. "
-      icon = "icon-layers2"
-      img = "manufacturing.jpeg"
-
-    [[params.services.item]]
-      title = "Technology"
-      description = "Can you remember a time without the internet? Neither can we. Technology is what makes our lives simpler. Whether a business needs wiring set up for a new location or a technology platform to help boost sales and reach, our firm stays two steps ahead of any challenges businesses are facing today."
-      icon = "icon-monitor"
-      img = "technology.jpg"
-
-    [[params.services.item]]
-      title = "Energy"
-      description = "We study all sources of energy your company or institution has drawn from over the course of the past few years. Researching local and renewable options for achieving greater efficiency is our specialty. We conduct feasibility studies to determine ideal solutions."
-      icon = "icon-bulb"
-      img = "energy.jpeg"
-
-    [[params.services.item]]
-      title = "Business Strategy"
-      description = "You are going to need a cutting edge business strategy in the start-up age. The marketplace is infused with competitors mobilizing from the ground up and executing with funding from venture capitalists. Our team can provide business development expertise to help navigate your most simplest to complex business objectives - in the most cost effective means."
-      icon = "icon-book-open"
-      img = "business-strategy.jpg"
-
-    [[params.services.item]]
-      title = "Government Relations"
-      description = "Managing regulatory pressure is a necessity for any company operating between business and government in today's world. Our firm takes on these obligations ensuring our partners are operating under the most current governmental guidelines. With our services, we can steer your company to success by ensuring these regulatory guidelines are met."
-      icon = "icon-people"
-      img = "govt-relations.jpeg"
-
-  # About section
-  [params.about]
-    enable = false
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]
-
-  # Counters section
-  [params.counters]
-    enable = false
-    title = "Stats"
-    background = "full_image_1.jpg"
-
-    [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
-
-    [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
-      from = 0
-      to = 52
-      interval = 50
-      speed = 5000
-
-  # Contact section
-  [params.contact]
-    enable = true
-    map = false
-    form = "Contact Us"
-    title = "Get in touch"
-    description = "Contact us for a consultation. We bring extensive experience and professionalism to every project and customize our support to your individual needs and concerns."
-
-    # Available icons: http://simplelineicons.com/
-    details = [
-        ["icon-phone", "(267) 258-5236"],
-        ["icon-envelope", "feod.engineering@gmail.com"]
-      ]
-
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
-
-  # Footer section
-  [params.footer]
-    enable = false
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+  
