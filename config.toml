@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "https://sdanioko.netlify.com/"
+baseURL = "https://rosebetheradomcare.netlify.com/"
 languageCode = "en-US"
 title = "Rosebeth Era Domestic & Care Referral Agency"
 
@@ -175,7 +175,7 @@ title = "Rosebeth Era Domestic & Care Referral Agency"
 [params.contact]
   enable = true
   title = "Get In Touch"
-  message = "Do not hesitate to contact us!<br>We will be pleased to assist you."
+  message = "Do not hesitate to contact us!<br>We will be pleased to assist you. Contact us at: (424) 303-0437"
 
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
