@@ -138,7 +138,7 @@ title = "Rosebeth Era Domestic & Care Referral Agency"
 
 # Team section
 [params.team]
-  enable = true
+  enable = false
   title = "Client References"
   description = "Feel free to contact any of our past clients for a reference. Some of the congregate homes we work for include [Royal Haven](http://www.clhfhomes.com/royal-haven.html), Valley Living Center, [Valley View](http://www.valleyviewcongregate.com/), Healthy Life Congregate Care, [Fenton Villa](http://www.clhfhomes.com/fenton.html), and Home of Compassion."
 
