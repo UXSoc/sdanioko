@@ -44,15 +44,15 @@ title = "Rosebeth Era Domestic & Care Referral Agency"
     weight = 1
     name = "marketing"
     title = "Housekeeping"
-    subtitle = "Our housekeeping services include laundry, mopping, sweeping, dusting, window cleaning, emptying trash, washing the bathrooms, cleaning the kitchen, and other household related tasks."
-    description = "<p>Our price is unbeatable at $14/hour.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "We are an employment agency that specializes in job placement. We hire nurse assistants, unlicensed assistive personnel, and house keepers. We are insured and bonded, including workers compensation insurance. We do a thorough criminal background check on all our workers, and assure you a safe environment with our workers. We are strong and very reliable."
+    description = "<p>Our price is unbeatable.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
   [[params.mission.item]]
     weight = 2
     name = "analysis"
     title = "CNA & Caregiving"
-    subtitle = "We cover oncall CNA/Caregiving services to congregate homes. If any of your certified nurse assistants call off, we can cover them. We primarily serve as a registry agency to cover your shifts."
-    description = "<p>Our price is unbeatable at $14/hour.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
+    subtitle = "We are an employment agency that specializes in job placement. We hire nurse assistants, unlicensed assistive personnel, and house keepers. We are insured and bonded, including workers compensation insurance. We do a thorough criminal background check on all our workers, and assure you a safe environment with our workers. We are strong and very reliable."
+    description = "<p>Our price is unbeatable.</p><p><a href='#' class='btn btn-primary btn-outline fh5co-content-nav' data-nav-section='contact'>Get In Touch</a></p>"
 
 # Services section
 [params.services]
