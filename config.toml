@@ -13,7 +13,7 @@ title = "Rosebeth Era Domestic & Care Referral Agency"
 [params.hero]
   img = "images/hero_bg.jpg"
   title = "Rosebeth Era Domestic & Care Referral Agency"
-  description = "We offer housekeeping, caregiving, and certified nursing services to 15 congregate homes here in the Valley."
+  description = ""
 
 # Navigation section
 [params.nav]
